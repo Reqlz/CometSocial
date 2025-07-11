@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CometSocial.CometUsers
 {
-	public class CometUserService: CometSocialAppServiceBase
+	public class CometUserService : CometSocialAppServiceBase, ICometUserService
 	{
 
 		private readonly IRepository<CometUser> _cometUserRepo;
