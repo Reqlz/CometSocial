@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-post',
@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './post.scss'
 })
 export class Post {
-
+  @Input() imageUrl: string = "";
+  @Input() description: string = "";
+  @Input() title: string = "";
+  @Input() interactionNumber: number = 0;
+  @Input() comentTargetUrl: string = "";
+  @Input() comentNumber: number = 0;
 }

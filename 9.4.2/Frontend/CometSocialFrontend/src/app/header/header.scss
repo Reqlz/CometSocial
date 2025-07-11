@@ -2,11 +2,18 @@
     display: flex;
     background-color: #221134;
     width: 100%;
+    // height: 10%;
     min-height: 120px;
-    align-items: center;
+    max-height: 140px;
 }
 
-a.Logo img {
+#header-logo {
     height: 80%;
-    padding-top: 10%,0;
+    min-width: 120px;
+    min-height: 140px;
+}
+
+.logo {
+    width: 120px;
+    height: 140px;
 }
